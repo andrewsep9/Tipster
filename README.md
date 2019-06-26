@@ -22,19 +22,20 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [X] Use a slider to adjust the tip percentage from 0 to 100%
+- [X] Change the color of the user interface to a black and blue contrast. 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://g.recordit.co/hz3HcFcJ08.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/txK4LQ2tvG.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with Recordit.co
 
 ## Notes
 
-The syntax Objective-C uses was very difficult at first to read and write. Much of the code seemed repetetive and clunky but was necessary to get the app working correctly.
+The syntax Objective-C uses was very difficult at first to read and write. Much of the code seemed repetetive and clunky but was necessary to get the app working correctly. Since there was no tutorial on sliders, I found it very difficult trying to understand how to create a slider, get its current value, and change the range of values. Also, when displaying the current percent for the tip, I kept receiving errors due to a "%" being in the code. To get around this, I just created a new label with a static "%" and placed it next to the label indiciating the tip percent. I think one of the more difficult parts of this for me was the design. I spent a lot of time trying different color combinations and spatial arrangements, and if I had more time I feel like I could have come up with a user interface that was more visually pleasing. 
 
 
 ## License
